@@ -9,7 +9,7 @@ function MainLayout({ children }) {
         <a href="https://itc.gymkhana.iitb.ac.in/">
           <img src="/logo.png" alt="ITC Logo" />
         </a>
-        <h1>Institute Technical Summer Activities</h1>
+        <h1 className='main-heading'>Institute Technical Summer Activities</h1>
       </header>
 
       <main className={styles.main}>

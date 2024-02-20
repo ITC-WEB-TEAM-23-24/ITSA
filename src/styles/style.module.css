@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&display=swap');
+
 .home {
   margin: 0 5%;
   width: 90%;
@@ -12,9 +15,10 @@
 }
 
 .container h1 {
+  font-family: Annapurna SIL, sans-serif;
   font-size: 2rem;
   font-weight: 500;
-  line-height: 2.5rem;
+  line-height: 1rem;
   color: rgba(255, 255, 255, 0.7);
   letter-spacing: 0.1rem;
   padding: 1rem 0;
@@ -22,6 +26,7 @@
 }
 
 .container h2 {
+  font-family: Annapurna SIL, sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 2rem;
@@ -32,6 +37,7 @@
 }
 
 .home p {
+  font-family: Annapurna SIL;
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 2rem;
@@ -70,7 +76,6 @@
   font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.4);
   position: relative;
-  left: 5%;
 }
 
 .driveembed {
@@ -91,6 +96,7 @@
   justify-content: center;
   align-items: center;
 }
+
 
 @media screen and (max-width: 768px) {
   .home {

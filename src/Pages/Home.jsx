@@ -8,22 +8,22 @@ const Home = () => {
   
         <div className={styles.links}>
           <Link to="/sos">
-            <div>Summer of Science</div>
+            <div className='heading'>Summer of Science</div>
             <span>by MnP Club</span>
           </Link>
   
           <Link to="https://itc.gymkhana.iitb.ac.in/wncc/soc/">
-            <div>Season of Codes</div>
+            <div className='heading'>Season of Codes</div>
             <span>by WnCC Club</span>
           </Link>
   
           <Link to="/ksp">
-            <div>Krittika Summer Projects</div>
+            <div className='heading'>Krittika Summer Projects</div>
             <span>by Krittika Club</span>
           </Link>
   
           <Link to="/itsp">
-            <div>Institute Technical Summer Projects</div>
+            <div className='heading'>Institute Technical Summer Projects</div>
             <span></span>
           </Link>
   
